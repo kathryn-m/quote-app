@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:,">
+    <title>Quotes from QuoteGarden</title>
+</head>
+<body>
+    <div class="card">
+        <div class="citationDiv">
+            <p class="citation"></p>
+            <p class="author"></p>
+        </div>
+        <div class="formDiv">
+            <p class='getCitation'>Get another quote:</p>
+            <form id='selectCitation' class='selectForm'>
+                <label for="random">
+                    <input type="radio" name='select-citation' class='btn' id="random" value="random">
+                    <span>Random</span>
+                </label>
+                <label for="nature">
+                    <input type="radio" name='select-citation' class='btn' id="nature" value="nature">
+                    <span>Nature</span>
+                </label>
+                <label for="love">
+                    <input type="radio" name="select-citation" class='btn'
+                    id="love" value="love">
+                    <span>Love</span>
+                </label>
+                <label for='sport'>
+                    <input type="radio" name="select-citation" class='btn' 
+                    id="sport" value="sport">
+                    <span>Sport</span>
+                </label>
+
+
+            </form>
+        </div>
+        <p class="acknowledgement">Quotes courtesy of <a href="https://pprathameshmore.github.io/QuoteGarden/">QuoteGarden</a></p>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
